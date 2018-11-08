@@ -1,4 +1,4 @@
-import { Peripheral } from "noble-mac";
+import { Peripheral } from "noble";
 
 import { BoostMoveHub } from "./boostmovehub";
 import { DuploTrainBase } from "./duplotrainbase";
@@ -15,7 +15,7 @@ import { EventEmitter } from "events";
 
 import Debug = require("debug");
 const debug = Debug("PoweredUP");
-import noble = require("noble-mac");
+import noble = require("noble");
 import { start } from "repl";
 
 let ready = false;
